@@ -1,0 +1,125 @@
+.profile-card{
+  background-color: burlywood;
+}
+
+.head{
+  background-color: antiquewhite;
+}
+
+.content{
+  background-color: chocolate;
+}
+
+.profile-image{
+  background-color: darksalmon;
+}
+
+.name-headline{
+  background-color: firebrick;
+}
+
+.about{
+  background-color: aquamarine;
+}
+
+.links{
+  background-color: azure;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card{
+  width:480px;
+  max-width: calc (1000 - 10px);
+}
+
+body{
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: url(assets/unnamed.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links{
+  text-align: center
+}
+
+.head, .content{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content{
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.head, .about{
+  margin-bottom: 10%;
+}
+
+.content{
+  padding: 5% 10%;
+}
+
+.profile-image{
+  margin-top: -60%;
+}
+
+img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: blueviolet;
+  filter: contrast(50%);
+  transition: all 0.5s ease-in-out;
+}
+
+img:hover{
+  filter: contrast(50%);
+  transform: scale(1.1);
+}
+
+.profile-card{
+  background-color: darkorchid;
+  border-radius: 4px;
+  box-shadow: grey;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
